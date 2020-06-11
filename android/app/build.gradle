@@ -150,6 +150,14 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+        release {
+            if (project.hasProperty('ECOLETA_RELEASE_STORE_FILE')) {
+                storeFile file(ECOLETA_RELEASE_STORE_FILE)
+                storePassword ECOLETA_RELEASE_STORE_PASSWORD
+                keyAlias ECOLETA_RELEASE_KEY_ALIAS
+                keyPassword ECOLETA_RELEASE_KEY_PASSWORD
+            }
+        }
     }
     buildTypes {
         debug {
@@ -223,3 +231,4 @@ task copyDownloadableDepsToLibs(type: Copy) {
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
