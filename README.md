@@ -1,5 +1,5 @@
 <h4 align="center">
- ♻️ Ecoleta
+ :recycle: Ecoleta
 </h4>
 
 <p align="center">
@@ -7,7 +7,7 @@
   <a href="#rocket-tecnologias">Tecnologias</a>
 </p>
 
-## 💻 Projeto
+## :computer: Projeto
 
 O Ecoleta é um projeto que visa facilitar a vida de pessoas que queiram encontrar pontos de coleta para descartar os seus recicláveis
 
@@ -17,6 +17,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
+
+## :computer: Back-end
+
+A [API Rest](https://github.com/carlosdaniiel07/ecoleta-back-end) foi desenvolvida com [NodeJS](https://github.com/nodejs/node) utilizando o conjunto Java Script e [Express](https://github.com/expressjs/express). Foi implementado uma pequena suite de testes com [Jest](https://github.com/facebook/jest) que por sua vez são executados através do [Circle CI](https://circleci.com/). A aplicação está hospedada no [Heroku](https://ecoleta-node-api.herokuapp.com/)
 
 ## :heart: Agradecimentos
 
