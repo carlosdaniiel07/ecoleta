@@ -1,6 +1,6 @@
-<h4 align="center">
+<h1 align="center">
  :recycle: Ecoleta
-</h4>
+</h1>
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
